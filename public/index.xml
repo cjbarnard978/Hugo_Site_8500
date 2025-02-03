@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome! on Cecilia Barnard</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome! on Cecilia Barnard</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I am a scholar of the late medieval and early modern periods (c. 1300-1650). I study the interplay of gender, religion, and society in the British Isles, focusing on Scotland and Ireland. I am currently a Ph.D. student at Clemson University. I received my MA from College of Charleston in 2022 and my BA in 2020 from the University of Alabama.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Me</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;My email: &lt;a href=&#34;mailto:barnar3@clemson.edu&#34;&gt;barnar3@clemson.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;My Bsky: @ceciliajb.bsky.social&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My CV</title>
+      <link>http://localhost:1313/about/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/cv/</guid>
+      <description>&lt;p&gt;Curriculum Vitae&#xA;Cecilia J. Barnard&lt;/p&gt;&#xA;&lt;p&gt;Education&#xA;PhD in Digital History, Clemson University&lt;/p&gt;&#xA;&lt;p&gt;Fall 2024-Present&lt;/p&gt;&#xA;&lt;p&gt;Master of Arts, College of Charleston, Spring 2021-Fall 2022&lt;/p&gt;&#xA;&lt;p&gt;Thesis: “FAIRIES, GHOSTS, CHARMS, AND HERBS: AN ANALYSIS OF THE SURVIVAL OF FOLK MAGIC IN SCOTLAND DURING AND AFTER THE REFORMATION”&lt;/p&gt;&#xA;&lt;p&gt;GPA: 4.0&lt;/p&gt;&#xA;&lt;p&gt;Undergraduate Studies: University of Alabama&lt;/p&gt;&#xA;&lt;p&gt;Bachelor’s in arts in English and History, Summa Cum Laude&lt;/p&gt;&#xA;&lt;p&gt;Overall GPA: 4.0 History GPA: 4.1 English GPA: 4.2&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
