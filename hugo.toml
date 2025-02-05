@@ -1,104 +1,93 @@
-baseurl = "https://ceciliabarnard.com/"
-title = "Cecilia Barnard"
+baseURL = "/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
+theme = "poison"
+paginate = 10
+pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-# Pagination
-pagerSize = 20
-paginatePath = "page"
-# Theme to use
-theme = "hugo-bootstrap-5"
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
-# Google analytics
-# googleAnalytics = ""
-
-[languages.en]
-  languageName = "English"
-
-  # Replace the default footer message with a localized message
-  # copyright = "Hugo template made with ❤ by Xzya"
-
-  [[languages.en.menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
-  [[languages.en.menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
-  [[languages.en.menu.main]]
-    url = "/contact/"
-    name = "Contact"
-    weight = 3
-
-[languages.es]
-  languageName = "Español"
-
-  [[languages.es.menu.main]]
-    url = "/es/"
-    name = "Casa"
-    weight = 1
-  [[languages.es.menu.main]]
-    url = "/about/"
-    name = "Acerca de"
-    weight = 2
-  [[languages.es.menu.main]]
-    url = "/contact/"
-    name = "Contacto"
-    weight = 3
-
-[languages.de]
-  languageName = "Deutsch"
-
-  [[languages.de.menu.main]]
-    url = "/de/"
-    name = "Start"
-    weight = 1
-  [[languages.de.menu.main]]
-    url = "/about/"
-    name = "Über uns"
-    weight = 2
-  [[languages.de.menu.main]]
-    url = "/contact/"
-    name = "Kontakt"
-    weight = 3
-
-# Links format
-
-[permalinks]
-  post = "/:year/:month/:title/"
+# NOTE: If using Disqus as commenting engine, uncomment and configure this line
+# disqusShortname = "yourDisqusShortname"
 
 [params]
-  # Main sections (currently used for the recent posts in the sidebar)
-  mainSections = ["post"]
+    brand = "Poison"                      # name of your site - appears in the sidebar
+    # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
+    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
+    description = "Update this description..." # Used as default meta description if not specified in front matter
+    dark_mode = true                      # optional - defaults to false
+    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
-  # Default author
-  author = "Cecilia Barnard"
+    front_page_content = ["posts"] # Equivalent to the default value, add page bundle names to include them on the front page.
 
-  # Date format (default: Jan 2, 2006)
-  # date_format = "Jan 2, 2006"
+    # MENU PLACEHOLDER
+    # Menu dict keys:
+        # Name:         The name to display on the menu.
+        # URL:          The directory relative to the content directory.
+        # HasChildren:  If the directory's files should be listed.  Default is true.
+        # Limit:        If the files should be listed, how many should be shown.
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
 
-  # Display post summaries instead of content in list templates (default: true)
-  # truncate = false
+    # Links to your socials.  Comment or delete any you don't need/use. 
+    discord_url = "https://discord.com"
+    email_url = "mailto://user@domain"
+    facebook_url = "https://facebook.com"
+    flickr_url = "https://flickr.com"
+    github_url = "https://github.com"
+    gitlab_url = "https://gitlab.com"
+    instagram_url = "https://instagram.com"
+    linkedin_url = "https://linkedin.com"
+    mastodon_url = "https://mastodon.social"
+    matrix_url = "https://matrix.org"
+    telegram_url = "https://telegram.org"
+    tryhackme_url = "https://tryhackme.com"
+    twitter_url = "https://twitter.com"
+    x_url = "https://x.com"
+    xmpp_url = "https://xmpp.org"
+    youtube_url = "https://youtube.com"
+    signal_url = "https://signal.org"
+    bluesky_url = "https://bsky.app"
 
-  [params.sidebar]
-    # Whether to show the recent posts or not (default: true)
-    # showRecent = false
+    # NOTE: If you don't want to use RSS, comment or delete the following lines
+    # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
+    rss_icon = true
+    # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
+    rss_section = "posts"
 
-    # Whether to show the taxonomies or not (default: true)
-    # showTaxonomy = false
+    # Hex colors for your sidebar.
+    moon_sun_background_color = "#515151"   # default is #515151
+    moon_sun_color = "#FFF"                 # default is #FFF
+    sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_img_border_color = "#515151"    # default is #515151
+    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_socials_color = "#FFF"          # default is #FFF
 
-    # How many posts to show on the sidebar (Default: 5)
-    # num_recent_posts = 5
+    # Hex colors for your content in light mode.
+    code_color = "#000"                     # default is #000
+    code_background_color = "#E5E5E5"       # default is #E5E5E5
+    code_block_color = "#FFF"               # default is #FFF
+    code_block_background_color = "#272822" # default is #272822
+    content_bg_color = "#FAF9F6"            # default is #FAF9F6
+    date_color = "#515151"                  # default is #515151
+    link_color = "#268BD2"                  # default is #268BD2
+    list_color = "#5A5A5A"                  # default is #5A5A5A
+    post_title_color = "#303030"            # default is #303030
+    table_border_color = "#E5E5E5"          # default is #E5E5E5
+    table_stripe_color = "#F9F9F9"          # default is #F9F9F9
+    text_color = "#222"                     # default is #222
 
-  [params.header]
-    # Color scheme for the header (default: "light")
-    # colorScheme = "dark"
-
-  [params.footer]
-    # Color scheme for the footer (default: "light")
-    # colorScheme = "dark"
+    # Hex colors for your content in dark mode
+    code_color_dark = "#FFF"                        # default is #FFF
+    code_background_color_dark = "#515151"          # default is #515151
+    code_block_color_dark = "#FFF"                  # default is #FFF
+    code_block_background_color_dark = "#272822"    # default is #272822
+    content_bg_color_dark = "#121212"               # default is #121212
+    date_color_dark = "#9A9A9A"                     # default is #9A9A9A
+    link_color_dark = "#268BD2"                     # default is #268BD2
+    list_color_dark = "#9D9D9D"                     # default is #9D9D9D
+    post_title_color_dark = "#DBE2E9"               # default is #DBE2E9
+    table_border_color_dark = "#515151"             # default is #515151
+    table_stripe_color_dark = "#202020"             # default is #202020
+    text_color_dark = "#EEE"                        # default is #EEE

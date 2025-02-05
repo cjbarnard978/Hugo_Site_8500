@@ -23,6 +23,8 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/cv/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
