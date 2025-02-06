@@ -8,60 +8,35 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # disqusShortname = "yourDisqusShortname"
 
 [params]
-    brand = "Poison"                      # name of your site - appears in the sidebar
+    brand = "Cecilia Barnard"                      # name of your site - appears in the sidebar
     # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-    description = "Update this description..." # Used as default meta description if not specified in front matter
+    description = "Medievalist in Training. Lover of heresy, magic, and mayhem. Student at Clemson University." # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
     front_page_content = ["posts"] # Equivalent to the default value, add page bundle names to include them on the front page.
 
-    # MENU PLACEHOLDER
-    # Menu dict keys:
-        # Name:         The name to display on the menu.
-        # URL:          The directory relative to the content directory.
-        # HasChildren:  If the directory's files should be listed.  Default is true.
-        # Limit:        If the files should be listed, how many should be shown.
-    menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    menu = [ 
+        {Name = "About Me", URL = "/about/", HasChildren = false}, 
+        {Name = "My CV", URL = "/CV/", HasChildren = false}
     ]
-
     # Links to your socials.  Comment or delete any you don't need/use. 
-    discord_url = "https://discord.com"
-    email_url = "mailto://user@domain"
-    facebook_url = "https://facebook.com"
-    flickr_url = "https://flickr.com"
-    github_url = "https://github.com"
-    gitlab_url = "https://gitlab.com"
-    instagram_url = "https://instagram.com"
-    linkedin_url = "https://linkedin.com"
-    mastodon_url = "https://mastodon.social"
-    matrix_url = "https://matrix.org"
-    telegram_url = "https://telegram.org"
-    tryhackme_url = "https://tryhackme.com"
-    twitter_url = "https://twitter.com"
-    x_url = "https://x.com"
-    xmpp_url = "https://xmpp.org"
-    youtube_url = "https://youtube.com"
-    signal_url = "https://signal.org"
-    bluesky_url = "https://bsky.app"
+    
+    email_url = "mailto://barnar3@clemson.edu"
+    github_url = "https://github.com/cjbarnard978"
+    linkedin_url = "https://linkedin.com/in/cecilia-barnard-3222371b4/"
+    bluesky_url = "https://bsky.app/profile/ceciliajb.bsky.social"
 
-    # NOTE: If you don't want to use RSS, comment or delete the following lines
-    # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
-    rss_icon = true
-    # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
-    rss_section = "posts"
 
     # Hex colors for your sidebar.
-    moon_sun_background_color = "#515151"   # default is #515151
+    moon_sun_background_color = "#515151"   # default isrgb(119, 79, 231)
     moon_sun_color = "#FFF"                 # default is #FFF
     sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_bg_color = "#202020"            # default isrgb(93, 62, 113)
     sidebar_h1_color = "#FFF"               # default is #FFF
-    sidebar_img_border_color = "#515151"    # default is #515151
-    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_img_border_color = "#515151"    # default isrgb(0, 0, 0)
+    sidebar_p_color = "#909090"             # default isrgb(51, 30, 56)
     sidebar_socials_color = "#FFF"          # default is #FFF
 
     # Hex colors for your content in light mode.

@@ -1,6 +1,6 @@
 +++
-title = "My CV"
-url = "/about/cv/"
+Name = "My CV"
+Url = "/CV/"
 +++
 
 Curriculum Vitae
