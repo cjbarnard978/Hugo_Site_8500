@@ -9,8 +9,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
 [params]
     brand = "Cecilia Barnard"                      # name of your site - appears in the sidebar
-    # remote_brand_image = '' # path to a remote file
-    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
+    
+    brand_image = "/images/medievalcat.jpg"    # path to the image shown in the sidebar
     description = "Medievalist in Training. Lover of heresy, magic, and mayhem. Student at Clemson University." # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
@@ -19,9 +19,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
     menu = [ 
         {Name = "About Me", URL = "/about/", HasChildren = false}, 
-        {Name = "My CV", URL = "/CV/", HasChildren = false}
-        {Name = "Posts", URL = "/posts/", HasChildren = false}
-        {Name = "Projects", URL = "projects/", HasChildren = false}
+        {Name = "My CV", URL = "/CV/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", HasChildren = false},
+        {Name = "Projects", URL = "/projects/", HasChildren = false}
     ]
     # Links to your socials.  Comment or delete any you don't need/use. 
     
