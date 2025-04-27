@@ -11,6 +11,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     unsafe = true # Allow HTML in md files
 
 [params]
+    hideToc = true
     brand = "Cecilia Barnard"                      # name of your site - appears in the sidebar
     
     brand_image = "/images/medievalcat.jpg"    # path to the image shown in the sidebar
@@ -22,7 +23,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
     menu = [  
         {Name = "My CV", URL = "/CV/", HasChildren = false},
-        {Name = "Posts and Projects", URL = "/postsandprojects/", HasChildren = false}
+        {Name = "Posts", URL = "/posts/", HasChildren = false}
     ]
     # Links to your socials.  Comment or delete any you don't need/use. 
     
@@ -69,3 +70,4 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     table_border_color_dark = "#515151"             # default is #515151
     table_stripe_color_dark = "#202020"             # default is #202020
     text_color_dark = "#EEE"                        # default is #EEE
+
