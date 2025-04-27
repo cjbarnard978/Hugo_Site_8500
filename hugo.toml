@@ -22,8 +22,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
     menu = [  
         {Name = "My CV", URL = "/CV/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", HasChildren = false},
-        {Name = "Projects", URL = "/projects/", HasChildren = true}
+        {Name = "Posts", URL = "/posts/", HasChildren = false}
     ]
     # Links to your socials.  Comment or delete any you don't need/use. 
     
