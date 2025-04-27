@@ -15,10 +15,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
-    front_page_content = ["posts"] # Equivalent to the default value, add page bundle names to include them on the front page.
+    front_page_content = "[aboutme.md]" # Equivalent to the default value, add page bundle names to include them on the front page.
 
-    menu = [ 
-        {Name = "About Me", URL = "/about/", HasChildren = false}, 
+    menu = [  
         {Name = "My CV", URL = "/CV/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", HasChildren = false},
         {Name = "Projects", URL = "/projects/", HasChildren = false}

@@ -1,5 +1,5 @@
 +++
-Name = "My CV"
+Name = "My CV and Research Interests"
 Url = "/CV/"
 +++
 
