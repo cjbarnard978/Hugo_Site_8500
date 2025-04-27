@@ -4,22 +4,18 @@
   <url>
     <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
-  </url><url>
-    <loc>//localhost:1313/CV/</loc>
-  </url><url>
-    <loc>//localhost:1313/posts/posts/</loc>
-  </url><url>
-    <loc>//localhost:1313/projects/projects/</loc>
+    <loc>//localhost:1313/projects/projectdirectory/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/cv/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>//localhost:1313/CV/</loc>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
   </url>
 </urlset>
