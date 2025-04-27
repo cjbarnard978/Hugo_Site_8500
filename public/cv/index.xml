@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CV on </title>
-    <link>//localhost:56580/cv/</link>
+    <link>//localhost:56575/cv/</link>
     <description>Recent content in CV on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:56580/cv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:56575/cv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CV and Research Interests</title>
-      <link>//localhost:56580/CV/</link>
+      <link>//localhost:56575/CV/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:56580/CV/</guid>
+      <guid>//localhost:56575/CV/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;PhD in Digital History, Clemson University&#xA;Fall 2024-Present&lt;/p&gt;&#xA;&lt;p&gt;Master of Arts, College of Charleston, Spring 2021-Fall 2022&#xA;Thesis: “FAIRIES, GHOSTS, CHARMS, AND HERBS: AN ANALYSIS OF THE SURVIVAL OF FOLK MAGIC IN SCOTLAND DURING AND AFTER THE REFORMATION”&#xA;GPA: 4.0&lt;/p&gt;&#xA;&lt;p&gt;Undergraduate Studies: University of Alabama&#xA;Bachelor’s in arts in English and History, Summa Cum Laude&#xA;Overall GPA: 4.0 History GPA: 4.1 English GPA: 4.2&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Research Fields and Interests&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Late Medieval and Early Modern British Isles; Spatial History; Women, Gender, and Sexuality; Religion, Saints, and Relics; Heresy, Magic, and Witchcraft&lt;/p&gt;</description>
     </item>
   </channel>

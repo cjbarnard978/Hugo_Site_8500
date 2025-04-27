@@ -15,6 +15,13 @@
       <description>&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;PhD in Digital History, Clemson University&#xA;Fall 2024-Present&lt;/p&gt;&#xA;&lt;p&gt;Master of Arts, College of Charleston, Spring 2021-Fall 2022&#xA;Thesis: “FAIRIES, GHOSTS, CHARMS, AND HERBS: AN ANALYSIS OF THE SURVIVAL OF FOLK MAGIC IN SCOTLAND DURING AND AFTER THE REFORMATION”&#xA;GPA: 4.0&lt;/p&gt;&#xA;&lt;p&gt;Undergraduate Studies: University of Alabama&#xA;Bachelor’s in arts in English and History, Summa Cum Laude&#xA;Overall GPA: 4.0 History GPA: 4.1 English GPA: 4.2&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Research Fields and Interests&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Late Medieval and Early Modern British Isles; Spatial History; Women, Gender, and Sexuality; Religion, Saints, and Relics; Heresy, Magic, and Witchcraft&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Posts and Projects</title>
+      <link>//localhost:1313/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Welcome</title>
       <link>//localhost:1313/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -23,9 +30,9 @@
     </item>
     <item>
       <title>Witchcraft Accusations in Fife: A Map</title>
-      <link>//localhost:1313/projects/witchcraftmap/</link>
+      <link>//localhost:1313/posts/witchcraftmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/witchcraftmap/</guid>
+      <guid>//localhost:1313/posts/witchcraftmap/</guid>
       <description>&lt;html&gt;&#xA;&lt;head&gt;&#xA;   &lt;script type=&#34;module&#34; src=&#34;https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA; &lt;arcgis-embedded-map style=&#34;height:600px;width:700px;&#34; item-id=&#34;fac5d2cfe89641958666b872f76555e1&#34; theme=&#34;light&#34; bookmarks-enabled heading-enabled legend-enabled information-enabled share-enabled portal-url=&#34;https://clemson.maps.arcgis.com&#34; &gt;&lt;/arcgis-embedded-map&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&#xA;&#xA;This map asks “what sense of space and place drive geographic patterns of witch-hunting?” By mapping approximately 330 trials over 100 years, I identified the port town of St. Andrews as a hotspot of witchcraft activity. Considering St. Andrews as a sort of micro-historical location, I am asking the following: Is St. Andrews particularly isolated either by a different foundational understanding of Presbyterianism, a geographic feature, or a social custom that the surrounding parishes of Fife do not share?</description>
     </item>
   </channel>
