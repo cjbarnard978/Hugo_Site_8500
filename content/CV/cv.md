@@ -1,9 +1,8 @@
 +++
 Name = "My CV and Research Interests"
 Url = "/CV/"
+Title = "CV and Research Interests"
 +++
-
-<h2>CV and Research Interests<h2>
 
 **Education** 
 
