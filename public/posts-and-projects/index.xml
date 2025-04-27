@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on </title>
-    <link>//localhost:1313/projects/</link>
-    <description>Recent content in Projects on </description>
+    <title>Posts and Projects on </title>
+    <link>//localhost:56580/posts-and-projects/</link>
+    <description>Recent content in Posts and Projects on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Project Directory</title>
-      <link>//localhost:1313/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/</guid>
-      <description></description>
-    </item>
+    <atom:link href="//localhost:56580/posts-and-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Witchcraft Accusations in Fife: A Map</title>
-      <link>//localhost:1313/projects/witchcraftmap/</link>
+      <link>//localhost:56580/projects/witchcraftmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/witchcraftmap/</guid>
+      <guid>//localhost:56580/projects/witchcraftmap/</guid>
       <description>&lt;html&gt;&#xA;&lt;head&gt;&#xA;   &lt;script type=&#34;module&#34; src=&#34;https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js&#34;&gt;&lt;/script&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA; &lt;arcgis-embedded-map style=&#34;height:600px;width:700px;&#34; item-id=&#34;fac5d2cfe89641958666b872f76555e1&#34; theme=&#34;light&#34; bookmarks-enabled heading-enabled legend-enabled information-enabled share-enabled portal-url=&#34;https://clemson.maps.arcgis.com&#34; &gt;&lt;/arcgis-embedded-map&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&#xA;&#xA;This map asks “what sense of space and place drive geographic patterns of witch-hunting?” By mapping approximately 330 trials over 100 years, I identified the port town of St. Andrews as a hotspot of witchcraft activity. Considering St. Andrews as a sort of micro-historical location, I am asking the following: Is St. Andrews particularly isolated either by a different foundational understanding of Presbyterianism, a geographic feature, or a social custom that the surrounding parishes of Fife do not share?</description>
     </item>
   </channel>

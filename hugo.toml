@@ -7,6 +7,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
 
+[markup.goldmark.renderer]
+    unsafe = true # Allow HTML in md files
 
 [params]
     brand = "Cecilia Barnard"                      # name of your site - appears in the sidebar
@@ -21,7 +23,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     menu = [  
         {Name = "My CV", URL = "/CV/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", HasChildren = false},
-        {Name = "Projects", URL = "/projects/", HasChildren = false}
+        {Name = "Projects", URL = "/projects/", HasChildren = true}
     ]
     # Links to your socials.  Comment or delete any you don't need/use. 
     
