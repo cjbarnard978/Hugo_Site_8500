@@ -1,4 +1,0 @@
-+++
-Name = "Posts"
-URL = "/posts/"
-+++
